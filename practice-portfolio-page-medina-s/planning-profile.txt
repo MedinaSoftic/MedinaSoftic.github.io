@@ -1,0 +1,58 @@
+Tasks
+Step 1: Plan Your Profile Page
+Think about how you want your profile page to look and what content to include.
+The page should contain:
+1. A Header: Includes your name and a brief tagline (e.g., "Aspiring Web
+Developer").
+2. A Section with a Profile Picture and About Me Text: Use a placeholder
+image or a real one.
+3. A Skills List: Include at least 3 skills presented in a list (ordered or
+unordered).
+4. A Footer: Add any additional information, such as a copyright message or a
+link to your GitHub profile.
+Step 2: Create the HTML Structure
+In your HTML file:
+1. Write semantic HTML using tags like <header>, <section>, <ul>/<ol>, and
+<footer>.
+2. Ensure your content is well-organized with meaningful IDs or classes for
+styling.
+Step 3: Write the External CSS File
+Create a separate CSS file to style your HTML:
+1. Link the CSS File: Use the <link> tag in the <head> section of your HTML file
+to connect the CSS.
+2. Add CSS Rules: Style the elements in your HTML file using element selectors,
+class selectors, and ID selectors. Focus on:
+○ Setting background colors.
+○ Adjusting text alignment, colors, and fonts.
+○ Adding spacing and padding to elements.
+Step 4: Test and Iterate
+1. Open the HTML file in your browser to see the styling applied.
+2. Adjust the CSS rules as needed to achieve the desired look.
+
+
+Head
+Tab list of Home page/portfolio/GitHub
+
+Medina Softic (banner)
+
+Sectiopn to left 
+Image of self
+short "about me"
+
+section in center 
+Software Developer
+Launchcode Graduate
+skill list
+
+footer
+Link for the art used for tabs 
+
+
+
+
+
+
+
+
+
+

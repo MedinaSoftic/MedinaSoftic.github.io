@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    background: url('./images/white.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+p {
+    font-size: 50px;
+}
+.p1 {
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+.p2 {
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.SkillList { 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 150px;           
+    text-align: center;
+    flex-direction: column; 
+    font-family: "Gill Sans", sans-serif;
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+li {
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    
+}
+}
+
+.footer {
+    font-size: 20px;
+    align-items: center;     
+    text-align: center;
+}
