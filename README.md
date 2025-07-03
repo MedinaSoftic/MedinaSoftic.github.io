@@ -1,4 +1,3 @@
-# MedinaSoftic.github.io
 <html>
 <head>
 <title>Profile Page</title>
@@ -14,7 +13,7 @@
         <br>
         <p class="p1" style="text-align:center; font-size: 50px">Medina Softic</p>
         <p class="discription" style="text-align:center;">Administrator | Full Stack Developer | Javascript Front End Developer</P>
-        <img class="selfImg" src="https://media.licdn.com/dms/image/v2/D5603AQErRmbjQjjW2w/profile-displayphoto-shrink_800_800/B56ZdgqwZBGQAc-/0/1749673510843?e=1756944000&v=beta&t=PhOMa0_sWBsBICkZG6UIqQzBKORIBvg6fNmgVNhL7LY" alt="Medina" width="50%" height="250px"/>
+        <img class="selfImg" src="https://media.licdn.com/dms/image/v2/D5603AQErRmbjQjjW2w/profile-displayphoto-shrink_800_800/B56ZdgqwZBGQAc-/0/1749673510843?e=1756944000&v=beta&t=PhOMa0_sWBsBICkZG6UIqQzBKORIBvg6fNmgVNhL7LY" alt="Medina" width="250px" height="200px"/>
         <p class="p1">Born in 1997, Lengefeld, Germany.<br> 
         I desing and code I love what I do! Life long continuing education is my passion, you can never stop learning in life, this is why i fell in love with computers and coding!</p>
         </div>
