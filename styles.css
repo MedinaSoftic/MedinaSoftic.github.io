@@ -1,10 +1,4 @@
-body {
-    width: 100%;
-    background: url('./images/white.avif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 
 
 p {
@@ -39,7 +33,20 @@ li {
     
 }
 }
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+#resume img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .footer {
     font-size: 20px;
     align-items: center;     
