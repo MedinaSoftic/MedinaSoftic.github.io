@@ -1,5 +1,64 @@
 
+.navMenu {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  font-size: 20px;
 
+}
+.navMenu a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navMenu a:hover {
+  color: #87CEFA;
+}
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #4682B4;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
 
 p {
     font-size: 50px;
@@ -12,41 +71,36 @@ p {
     font-size: 20px;
     font-family: "Gill Sans", sans-serif;
 }
-
-.SkillList { 
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    height: 150px;           
-    text-align: center;
-    flex-direction: column; 
-    font-family: "Gill Sans", sans-serif;
-
-ul{
-    list-style-type: square;
-    list-style-position: inside;
+.stash{
+  max-width: 900px;
+  margin: 0 auto;
 }
-li {
-    font-size: 20px;
-    font-family: "Gill Sans", sans-serif;
-    text-align: center;
-    
+.main{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto; 
 }
+.about{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px; 
 }
-#resume {
+.resume {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-#resume img {
+.resume img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 .footer {
     font-size: 20px;
     align-items: center;     
